@@ -1,0 +1,36 @@
+.Box {
+  opacity: 0.5;
+  padding: 25px;
+  border-radius: 5px;
+  opacity: 1;
+  transition: all 2s ease-in-out forwards;
+  z-index: 3000;
+}
+
+.FormDiv {
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+}
+.Login {
+  display: flex;
+  justify-content: center;
+}
+.Login button {
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px;
+  width: 30%;
+  height: 2.5rem;
+  font-size: 15px;
+  font: inherit;
+  border: 1.5px solid rgb(99, 250, 230);
+  color: rgb(72, 75, 69);
+  font-weight: bold;
+  transform: all 0.3s ease-in;
+}
+.Login button:hover {
+  background: rgb(99, 250, 230);
+}
